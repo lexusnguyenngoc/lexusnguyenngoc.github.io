@@ -12,21 +12,22 @@ $(function () {
 			connect.style.opacity = '0';
 			connect.style.visibility = 'hidden';
 		}
-		if ($(window).scrollTop() > 100) {
-			$('.navbar').addClass('fixed-top-100');
-			$('.banner').addClass('mt-menu');
-		}
-		else {
-			$('.navbar').removeClass('fixed-top-100');
-			$('.banner').removeClass('mt-menu');
-		}
-		if ($(window).scrollTop() > 200) {
-			$('.navbar').addClass('fixed-top');
-		}
-		else {
-			$('.navbar').removeClass('fixed-top');
-		}
+		// if ($(window).scrollTop() > 100) {
+		// 	$('.navbar').addClass('fixed-top-100');
+		// 	$('.banner').addClass('mt-menu');
+		// }
+		// else {
+		// 	$('.navbar').removeClass('fixed-top-100');
+		// 	$('.banner').removeClass('mt-menu');
+		// }
+		// if ($(window).scrollTop() > 200) {
+		// 	$('.navbar').addClass('fixed-top');
+		// }
+		// else {
+		// 	$('.navbar').removeClass('fixed-top');
+		// }
 	});
+
 	$('body').append('<div id="toTop"></div>');
 	$(window).scroll(function () {
 		if ($(this).scrollTop() != 0) {
